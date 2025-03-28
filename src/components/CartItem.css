@@ -1,0 +1,56 @@
+/* Cart Item Styling */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cart-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .cart-item h3 {
+    font-size: 16px;
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  
+  .cart-item p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .cart-item .quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .cart-item .quantity-control button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: #ff6600;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
+  
+  .cart-item .quantity-control button:hover {
+    background: #cc5500;
+  }
+  
+  .cart-item .quantity-control span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
